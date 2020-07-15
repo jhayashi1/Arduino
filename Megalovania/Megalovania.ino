@@ -1,4 +1,5 @@
 #include "pitches.h"
+
 const int ledPin = 13;
 const int buzzerPin = 12;
 const int ldrPin = A0;
@@ -31,13 +32,6 @@ void loop() {
 
       noTone(buzzerPin);
     }
-    /*tone(buzzerPin, 100);
-    digitalWrite(ledPin, HIGH);
-    delay(100);
-
-    noTone(buzzerPin);
-    digitalWrite(ledPin, LOW);
-    delay(100);*/
   } else {
 
     noTone(buzzerPin);
